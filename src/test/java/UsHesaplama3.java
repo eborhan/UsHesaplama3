@@ -8,11 +8,7 @@ public class UsHesaplama3 {
         } else if (b == 0) {
             return 1;
         }
-        int result = pow(a, b - 1) * a;
-        System.out.println(result);
-        return result;
-
-
+        return pow(a, b - 1) * a;
     }
 
     public static void main(String[] args) {
